@@ -1,0 +1,17 @@
+============================================================
+MODEL PERFORMANCE METRICS
+============================================================
+
+Test Accuracy: 0.8008 (80.08%)
+
+Confusion Matrix:
+  True Negatives:   17348
+  False Positives:   1385
+  False Negatives:   4552
+  True Positives:    6518
+
+Cross-Validation Scores (10-fold):
+  Mean: 0.7867
+  Std:  0.0487
+  Scores: [0.78365909 0.74783995 0.84363728 0.73760591 0.7306434  0.79322205
+ 0.73483768 0.80832145 0.80010066 0.88692224]

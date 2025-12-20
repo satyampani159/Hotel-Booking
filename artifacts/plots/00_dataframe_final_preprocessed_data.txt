@@ -1,0 +1,80 @@
+
+================================================================================
+STAGE: Final Preprocessed Data
+================================================================================
+
+Shape: (119210, 24) (rows, columns)
+
+First 5 Rows:
+      hotel  is_canceled  lead_time  arrival_date_month  stays_in_week_nights      meal   country  market_segment  distribution_channel  is_repeated_guest  previous_cancellations  previous_bookings_not_canceled  reserved_room_type  assigned_room_type  booking_changes  days_in_waiting_list  customer_type       adr  required_car_parking_spaces  total_of_special_requests  is_family  total_customer  total_nights  deposit_given
+0  0.277674            0   5.837730            0.374644                     0  0.374106  0.562958        0.153712              0.174868                  0                       0                               0            0.330827            0.188186                3                     0       0.407864  2.125848                            0                          0          0             2.0             0              0
+1  0.277674            0   6.603944            0.374644                     0  0.374106  0.562958        0.153712              0.174868                  0                       0                               0            0.330827            0.188186                4                     0       0.407864  2.125848                            0                          0          0             2.0             0              0
+2  0.277674            0   2.079442            0.374644                     1  0.374106  0.202310        0.153712              0.174868                  0                       0                               0            0.391567            0.188186                0                     0       0.407864  4.423408                            0                          0          0             1.0             1              0
+3  0.277674            0   2.639057            0.374644                     1  0.374106  0.202310        0.187618              0.220568                  0                       0                               0            0.391567            0.445055                0                     0       0.407864  4.423408                            0                          0          0             1.0             1              0
+4  0.277674            0   2.708050            0.374644                     2  0.374106  0.202310        0.367590              0.410598                  0                       0                               0            0.391567            0.445055                0                     0       0.407864  4.667018                            0                          1          0             2.0             2              0
+
+Data Types:
+hotel                             float64
+is_canceled                         int64
+lead_time                         float64
+arrival_date_month                float64
+stays_in_week_nights                int64
+meal                              float64
+country                           float64
+market_segment                    float64
+distribution_channel              float64
+is_repeated_guest                   int64
+previous_cancellations              int64
+previous_bookings_not_canceled      int64
+reserved_room_type                float64
+assigned_room_type                float64
+booking_changes                     int64
+days_in_waiting_list                int64
+customer_type                     float64
+adr                               float64
+required_car_parking_spaces         int64
+total_of_special_requests           int64
+is_family                           int64
+total_customer                    float64
+total_nights                        int64
+deposit_given                       int64
+
+Missing Values:
+hotel                             0
+is_canceled                       0
+lead_time                         0
+arrival_date_month                0
+stays_in_week_nights              0
+meal                              0
+country                           0
+market_segment                    0
+distribution_channel              0
+is_repeated_guest                 0
+previous_cancellations            0
+previous_bookings_not_canceled    0
+reserved_room_type                0
+assigned_room_type                0
+booking_changes                   0
+days_in_waiting_list              0
+customer_type                     0
+adr                               0
+required_car_parking_spaces       0
+total_of_special_requests         0
+is_family                         0
+total_customer                    0
+total_nights                      0
+deposit_given                     0
+
+Descriptive Statistics:
+               hotel    is_canceled      lead_time  arrival_date_month  stays_in_week_nights           meal        country  market_segment  distribution_channel  is_repeated_guest  previous_cancellations  previous_bookings_not_canceled  reserved_room_type  assigned_room_type  booking_changes  days_in_waiting_list  customer_type            adr  required_car_parking_spaces  total_of_special_requests      is_family  total_customer   total_nights  deposit_given
+count  119210.000000  119210.000000  119210.000000       119210.000000         119210.000000  119210.000000  119210.000000   119210.000000         119210.000000      119210.000000           119210.000000                   119210.000000       119210.000000       119210.000000    119210.000000         119210.000000  119210.000000  119210.000000                119210.000000              119210.000000  119210.000000   119210.000000  119210.000000  119210.000000
+mean        0.370766       0.370766       3.843172            0.370766              2.499195       0.370766       0.370766        0.370766              0.370766           0.031499                0.087191                        0.137094            0.370766            0.370766         0.218799              2.321215       0.370766       4.596176                     0.062553                   0.571504       0.076411        1.971210       3.426248       0.122364
+std         0.066212       0.483012       1.607096            0.033756              1.897106       0.024433       0.172547        0.128967              0.085574           0.174663                0.844918                        1.498137            0.035148            0.097361         0.638504             17.598002       0.065988       0.512846                     0.245360                   0.792876       0.265656        0.718876       2.540692       0.327707
+min         0.277674       0.000000       0.000000            0.305016              0.000000       0.244654       0.000000        0.122253              0.174868           0.000000                0.000000                        0.000000            0.292683            0.013928         0.000000              0.000000       0.101045       0.693147                     0.000000                   0.000000       0.000000        1.000000       0.000000       0.000000
+25%         0.277674       0.000000       2.944439            0.334451              1.000000       0.374106       0.202310        0.343313              0.410598           0.000000                0.000000                        0.000000            0.330827            0.251373         0.000000              0.000000       0.407864       4.355169                     0.000000                   0.000000       0.000000        2.000000       2.000000       0.000000
+50%         0.417859       0.000000       4.248495            0.377823              2.000000       0.374106       0.298188        0.367590              0.410598           0.000000                0.000000                        0.000000            0.391567            0.445055         0.000000              0.000000       0.407864       4.637928                     0.000000                   0.000000       0.000000        2.000000       3.000000       0.000000
+75%         0.417859       1.000000       5.087596            0.397029              3.000000       0.374106       0.562958        0.367590              0.410598           0.000000                0.000000                        0.000000            0.391567            0.445055         0.000000              0.000000       0.407864       4.900672                     0.000000                   1.000000       0.000000        2.000000       4.000000       0.000000
+max         0.417859       1.000000       6.603944            0.414860             50.000000       0.598997       1.000000        1.000000              0.800000           1.000000               26.000000                       72.000000            0.407654            1.000000        18.000000            391.000000       0.407864       8.595705                     8.000000                   5.000000       1.000000       55.000000      69.000000       1.000000
+
+All Columns:
+['hotel', 'is_canceled', 'lead_time', 'arrival_date_month', 'stays_in_week_nights', 'meal', 'country', 'market_segment', 'distribution_channel', 'is_repeated_guest', 'previous_cancellations', 'previous_bookings_not_canceled', 'reserved_room_type', 'assigned_room_type', 'booking_changes', 'days_in_waiting_list', 'customer_type', 'adr', 'required_car_parking_spaces', 'total_of_special_requests', 'is_family', 'total_customer', 'total_nights', 'deposit_given']
