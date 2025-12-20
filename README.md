@@ -1,2 +1,2 @@
 #### Hotel Booking Prediction Using LRM
-Project Through Udamy
+Project Through Udemy
